@@ -3,10 +3,11 @@ import {
   View,
   StyleSheet,
   Text,
-  StatusBar,
   TouchableOpacity,
+  StatusBar,
 } from "react-native";
 import { Feather } from "@expo/vector-icons";
+
 const statusBarHeight = StatusBar.currentHeight
   ? StatusBar.currentHeight + 22
   : 64;
